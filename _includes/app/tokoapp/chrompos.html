@@ -1,0 +1,50 @@
+<div class="container">
+<div class="row">
+<div class="col-md-5 p-3">
+<div class="p-3 p-md-5 axcora rounded">
+<h3><strong><a href="{{page.url}}" title="program toko software toko" class="link">{{site.data.toko.chrompos}}</a></strong></h3>
+ <img class="img-fluid rounded zoom" loading="lazy" width="100%" height="100%" alt="Aplikasi toko {{site.data.toko.chrompos}}" 
+src="{{site.data.toko.chromposcover}}"/>
+</div>
+</div>
+<div class="col-md-7 p-3">
+<ul class="nav nav-pills mb-3" id="aplikasitoko1-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="btn ms-1 active text-white axcora" id="info-tab" data-bs-toggle="pill" data-bs-target="#info-toko2" 
+	type="button" role="tab" aria-controls="info" aria-selected="true">Fitur</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="btn  ms-1 text-white axcora" id="demo-tab" data-bs-toggle="pill" data-bs-target="#demo-toko2" 
+	type="button" role="tab" aria-controls="demo" aria-selected="false">Demo</button>
+  </li>
+  <li class="nav-item">
+    <a href="{{site.data.toko.chromposdownload}}" class="btn  ms-1 text-white axcora">Download</a>
+  </li>
+</ul>
+<div class="tab-content" id="aplikasitoko1-tabContent">
+  <div class="tab-pane fade show active" id="info-toko2" role="tabpanel" aria-labelledby="info-toko2-tab" tabindex="0">
+  <p>{{site.data.toko.chromposinfo}}</p>
+  <p><small>
+	 {{site.data.toko.chromposfitur1}}
+<br/>{{site.data.toko.chromposfitur2}}
+<br/>{{site.data.toko.chromposfitur3}}
+<br/>{{site.data.toko.chromposfitur4}}
+<br/>{{site.data.toko.chromposfitur5}}
+<br/>{{site.data.toko.chromposfitur6}}
+<br/>{{site.data.toko.chromposfitur7}}
+<br/>{{site.data.toko.chromposfitur8}}
+</small></p>
+  <p><a href="{{site.data.toko.chromposlink}}" class="btn btn-light">{{site.data.toko.chromposbtn}}</a></p>
+  </div>
+  <div class="tab-pane fade" id="demo-toko2" role="tabpanel" aria-labelledby="demo-toko2-tab" tabindex="0">
+  <div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/{{site.data.toko.chromposvideo}}" 
+  title="Program toko software toko"
+  loading="lazy"
+  class="rounded shadow"  allowfullscreen></iframe>
+</div>
+  </div>
+</div>
+</div>
+</div>
+</div>

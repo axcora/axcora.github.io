@@ -1,0 +1,44 @@
+<div class="container">
+<div class="row">
+<div class="col-md-5 p-3">
+<div class="p-3 p-md-5 axcora rounded">
+<h3><strong><a href="{{page.url}}" title="{{site.data.invoice.next}}" class="link">{{site.data.invoice.next}}</a></strong></h3>
+ <img class="img-fluid rounded zoom" loading="lazy" width="100%" height="100%" alt="{{page.title}}" 
+src="{{site.data.invoice.nextcover}}"/>
+</div>
+</div>
+<div class="col-md-7 p-3">
+<ul class="nav nav-pills mb-3" id="aplikasiinvoice-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="btn ms-1 active text-white axcora" id="info-tab" data-bs-toggle="pill" data-bs-target="#info" 
+	type="button" role="tab" aria-controls="info" aria-selected="true">Fitur</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="btn  ms-1 text-white axcora" id="demo-tab" data-bs-toggle="pill" data-bs-target="#demo" 
+	type="button" role="tab" aria-controls="demo" aria-selected="false">Demo</button>
+  </li>
+  <li class="nav-item">
+    <a href="{{site.data.invoice.nextdownload}}" class="btn  ms-1 text-white axcora">Download</a>
+  </li>
+</ul>
+<div class="tab-content p-3" id="aplikasiinvoice-tabContent">
+  <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="info-tab" tabindex="0">
+  <p>{{site.data.invoice.nextinfo}}</p>
+  <p><small>
+ {{site.data.invoice.nextfitur1}}<br/>{{site.data.invoice.nextfitur2}}<br/>{{site.data.invoice.nextfitur3}}<br/>{{site.data.invoice.nextfitur4}}
+<br/>{{site.data.invoice.nextfitur5}}<br/>{{site.data.invoice.nextfitur6}}<br/>{{site.data.invoice.nextfitur7}}<br/>{{site.data.invoice.nextfitur8}}
+  </small></p>
+  <p><a href="{{site.data.invoice.nextlink}}" class="btn btn-light">Order Next Invoice</a></p>
+  </div>
+  <div class="tab-pane fade" id="demo" role="tabpanel" aria-labelledby="demo-tab" tabindex="0">
+   <div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/{{site.data.invoice.nextvideo}}" 
+  title="Aplikasi invoice online faktur penjualan"
+  loading="lazy"
+  class="rounded shadow"  allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

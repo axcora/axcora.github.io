@@ -1,0 +1,32 @@
+<div class="col-md-4 p-0">
+<img class="img-fluid zoom" alt="{{ site.data.web.staticsitegenerator }}" height="100%" width="100%" 
+src="{{ site.data.web.ssgcover }}"/>
+<div class="p-3 p-md-5 axcora">
+<h3><a href="{{page.url}}" class="link">{{ site.data.web.staticsitegenerator }}</a></h3>
+<ul class="nav nav-pills mb-3" id="pembuatanwebsite-tab" role="tablist">
+<li class="nav-item" role="presentation">
+<button class="btn ms-1 active text-white axcora" id="pembuatanwebsiteinfo-tab" data-bs-toggle="pill" data-bs-target="#pembuatanwebsiteinfo" 
+type="button" role="tab" aria-controls="info" aria-selected="true">Fitur</button>
+</li>
+<li class="nav-item" role="presentation">
+<button class="btn  ms-1 text-white axcora" id="pembuatanwebsitedemo-tab" data-bs-toggle="pill" data-bs-target="#pembuatanwebsitedemo" 
+type="button" role="tab" aria-controls="demo" aria-selected="false">Demo</button>
+</li>
+</ul>
+<div class="tab-content p-1" id="pembuatanwebsite-tabContent">
+<div class="tab-pane fade show active" id="pembuatanwebsiteinfo" role="tabpanel" aria-labelledby="pembuatanwebsiteinfo-tab" tabindex="0">
+<p>{{ site.data.web.ssg }}</p>
+<p><small><a href="https://jekyllrb.com" class="text-white">Jekyll</a> , {{ site.data.web.ssgtech1 }}<br/>{{ site.data.web.ssgtech2 }} <a href="https://astro.build" class="text-white">Astro</a></small></p>
+<p><a href="{{ site.data.web.ssglink }}" class="btn btn-light">{{ site.data.web.ssgbtn }}</a></p>
+</div>
+<div class="tab-pane fade" id="pembuatanwebsitedemo" role="tabpanel" aria-labelledby="pembuatanwebsitedemo-tab" tabindex="0">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/{{ site.data.web.ssgvideo }}" 
+title="Pembuatan Website static site generator"
+loading="lazy"
+class="rounded shadow"  allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>

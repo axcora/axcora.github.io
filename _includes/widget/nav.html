@@ -1,0 +1,24 @@
+<nav class="navbar navbar-dark fixed-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler axcora text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+     <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+  <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+</svg> <small>Menu</small>
+    </button> 
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header ms-3">
+        <h5 class="offcanvas-title link" id="offcanvasDarkNavbarLabel">
+		{{ site.title }}
+		</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+	   <div class="col-md-12 mb-3">
+	  <img class="img-fluid" title="{{site.description}}" alt="{{site.title}}" height="100%" width="100%" 
+	src="{{ site.navcover }}"/>
+	</div>
+      <div class="offcanvas-body">
+		{% include widget/naviicon.html %}
+	  </div>
+    </div>
+  </div>
+</nav>

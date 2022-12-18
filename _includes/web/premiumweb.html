@@ -1,0 +1,26 @@
+<div class="col-md-6 p-3">
+ <h3><a href="{{page.url}}" title="{{ site.data.web.procms }}" class="link">{{ site.data.web.procms }}</a></h3>
+ <ul class="nav nav-pills mb-3" id="pembuatanwebsite7-tab" role="tablist">
+ <li class="nav-item" role="presentation">
+ <button class="btn ms-1 active text-white axcora" id="pembuatanwebsite7info-tab" data-bs-toggle="pill" data-bs-target="#pembuatanwebsite7info" 
+type="button" role="tab" aria-controls="info" aria-selected="true">Fitur</button>
+ </li>
+ <li class="nav-item" role="presentation">
+ <button class="btn  ms-1 text-white axcora" id="pembuatanwebsite7demo-tab" data-bs-toggle="pill" data-bs-target="#pembuatanwebsite7demo" 
+type="button" role="tab" aria-controls="demo" aria-selected="false">Demo</button>
+ </li>
+</ul>
+<div class="tab-content p-1" id="pembuatanwebsite7-tabContent">
+  <div class="tab-pane fade show active" id="pembuatanwebsite7info" role="tabpanel" aria-labelledby="pembuatanwebsite7info-tab" tabindex="0">
+<p>{{ site.data.web.pro }}</p>
+  </div>
+  <div class="tab-pane fade" id="pembuatanwebsite7demo" role="tabpanel" aria-labelledby="pembuatanwebsite7demo-tab" tabindex="0">
+    <div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/{{ site.data.web.provideo }}" 
+  title="{{page.title}}"
+  loading="lazy"
+  class="rounded shadow"  allowfullscreen></iframe>
+</div>
+  </div>
+</div>
+</div>

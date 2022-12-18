@@ -1,0 +1,37 @@
+penginapan : Penginapan
+penginapancover: assets/img/hotel.webp
+penginapaninfo : Solusi dalam kebutuhan untuk menerima dan handle booking online dari pelanggan dengan menggunakan hotel webapp untuk bekerja, dengan skema dan konsep website informasi include desain menarik mewah, plus dukungan form online order untuk memudahkan pelanggan melakukan reservasi booking baik tempat untuk acara event seminar, hingga reservasi booking kamar dengan informasi detail tersedia dengan informasi id pelanggan seperti phone dan email untuk memudahkan proses followup dari pihak hotel.
+penginapanfitur1 : Backend Webadmin - Fitur content management system dengan kemampuan untuk merubah dan melakukan update halaman home page, event acara, agenda, tempat space untuk reservasi, room kamar dengan detail informasi nya, dan menu makanan minuman, hingga form booking order yang otomatis akan menerima pesanan pelanggan via list ini include detail ID pemesanan room pelanggan. 
+penginapanfitur2 : Invoice App - Untuk kebutuhan dalam bekerja via aplikasi invoice untuk cetak faktur penjualan dan laporan lengkap detail. 
+penginapanfitur3 : Website Frontend - Menampilkan informasi mengenai hotel mulai dari halaman utama, tempat space untuk reservasi, meja , menu makanan dan minuman resto cafe , form booking online pelanggan dan lain sebagai nya 
+penginapanfitur4 : QRCode Mobile digital - Include qrcode mobile web untuk digital informasi pada premium version.
+penginapanfitur5 : Android App - Lengkap dengan android app untuk di unduh pelanggan guna memberikan informasi update mengenai hotel . 
+penginapanvideo : wKD_QiNImS4
+penginapanlink : /shop/#!/Axcora-Apps/p/517913848/category=42887012
+penginapanbtn: Order Penginapan App
+penginapandownload : https://mesinkasir.github.io/e-catalog/HOTEL%20RESERVATION%20ONLINE%20APPS.pdf
+
+
+salon: Salon SPA
+saloncover: assets/img/salonspa.webp
+salonfitur1 : Dashboard Web Admin - untuk kemudahan melakukan update halaman website pada area home, kemudian produk jual dan layanan services, tempat room misalnya untuk reservasi , update halaman event dan promosi serta kebutuhan lain nya.  
+salonfitur2 : Reservasi List - Cek dan penerimaan reservasi yang masuk dari pelanggan via website. 
+salonfitur3 : POS App - Kemudahan bekerja dengan aplikasi untuk kebutuhan mencetak struk kasir maupun invoice, dan mencatat kan pendapatan income omset detail via transaksi, serta kemampuan lengkap dengan laporan system yang tersedia meliputi inventori stok, dan berbagai kebutuhan untuk pembukuan lain nya. 
+salonvideo : kIV2DEjHwKg
+salonlink : /shop/#!/Axcora-Apps/p/517913848/category=42887012
+salondownload : https://mesinkasir.github.io/e-catalog/Salon%20Spa%20Klinik%20Kecantikan%20Web%20app.pdf
+salonbtn: Order Salon Spa App
+
+rent: Rent Car
+rentcover: assets/img/rentcar.webp
+rentinfo : Rent car web app menjadi solusi bagi pengusaha bisnis sewa kendaraan baik mobil dan motor dalam bekerja, aplikasi yang digunakan sangat mudah include dengan kemampuan nya untuk mencatat skema pembayaran misalnya uang muka, dan update untuk melakukan pembayaran pelanggan dengan mudah dalam hal pelunasan pembayaran. plus dukungan penuh untuk membuat invoice faktur penjualan kepada pelanggan menyempurnakan kebutuhan ini untuk digunakan. 
+rentfitur1 : Aturan - Mengatur hak akses user login app , Karyawan - Untuk mendaftarkan user pengguna web apps 
+rentfitur2 : Kendaraan - Group Pengelompokan grup kendaraan + Kendaraan Input data kendaraan sewa rental beserta detail nopol. 
+rentfitur3 : Invoice - Membuat invoice transaksi kepada pelanggan lengkap status pembayaran. 
+rentfitur4 : List Invoice - Cek daftar invoice dan melakukan update pembayaran pelanggan. 
+rentfitur5 : Laporan - Untuk cek laporan income omset detail. 
+rentfitur6 : Company - Untuk merubah tampilan website halaman depan. 
+rentvideo : Yom6LCCoZUA
+rentlink : /shop/#!/Axcora-Apps/p/517913848/category=42887012
+rentdownload : https://mesinkasir.github.io/larapos/e-catalog/Aplikasi%20Rent%20Car.pdf
+rentbtn: Order Rent Car App
