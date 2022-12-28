@@ -24,7 +24,7 @@ mrestofitur7: Setting - Pengaturan aplikasi dan management web app.
 mrestofitur8: CMS content management system - untuk kebutuhan update website frontend dengan fitur homepage,blog, about, privacy,contact dan menu yang terintegrasi dengan data menu pada aplikasi restoran cafe. 
 mrestovideo: BidBDJmKo0Y
 mrestodownload: https://mesinkasir.github.io/e-catalog/mr.%20resto%20pos%20apps.pdf
-mrestolink: /shop/#!/mr-restopos-app/p/510209163/category=0
+mrestolink: /shop#!/mr-restopos-app/p/510209163/category=0
 mrestobtn: Order Mr.Resto
 bangresto: Bang Resto
 bangrestocover: assets/img/bangresto.webp
@@ -39,7 +39,7 @@ bangrestofitur7: Accounting - All fitur akuntansi seperti pendaftaran account, j
 bangrestofitur8: CMS content management system - untuk kebutuhan update website frontend dengan fitur homepage, about, privacy,tata cara order online, contact dan menu yang terintegrasi dengan data menu pada aplikasi restoran cafe. 
 bangrestovideo: DtJO_2ZO8lE
 bangrestodownload: https://mesinkasir.github.io/e-catalog/bang%20resto%20aplikasi%20restoran.pdf
-bangrestolink: /shop/#!/Bang-Resto-WebApp/p/510213935/category=0
+bangrestolink: /shop#!/Bang-Resto-WebApp/p/510213935/category=0
 bangrestobtn: Order Bang Resto
 unipos: Unipos
 uniposcover: assets/img/unipos.webp
@@ -54,5 +54,5 @@ uniposfitur7: Laporan - rangkuman seluruh laporan detail , stok inventori persed
 uniposfitur8: CMS content management system - untuk kebutuhan update website frontend dengan fitur homepage, about, privacy,contact dan menu yang terintegrasi dengan data menu pada aplikasi restoran cafe pada cloud version. 
 uniposvideo: gGZcHO32mh4
 uniposdownload: https://mesinkasir.github.io/larapos/e-catalog/next%20level%20resto%20cafe%20system.pdf
-uniposlink: /shop/#!/unipos/p/510782026/category=0
+uniposlink: /shop#!/unipos/p/510782026/category=0
 uniposbtn: Order Unipos
