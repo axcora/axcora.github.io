@@ -1,4 +1,5 @@
 restox: Resto-X
+restoxweb: https://restox.axcora.com
 restoxcover: assets/img/restox.webp
 restoxinfo: Jika membutuhkan aplikasi restoran dan website resto cafe rumah makan yang mudah digunakan serta lengkap dalam mendukung pembukuan maupun mempercepat transaksi kasir, maka resto-x webapp adalah pilihan yang terbaik untuk digunakan.
 restoxfitur1: Master database - untuk mendaftarkan user pengguna dan hak akses, pembuatan password, pelanggan member , member card dengan saldo, supplier pemasok , Penggunaan PPN dan penjualan non PPn. 
@@ -12,6 +13,7 @@ restoxdownload: https://mesinkasir.github.io/e-catalog/RESTO-X.pdf
 restoxlink: /shop#!/Resto-X-Web-Apps/p/209098187/category=0
 restoxbtn: Order Resto-X
 mresto: Mr.Resto
+mrestoweb: https://mr-resto.axcora.com/
 mrestocover: assets/img/mresto.webp
 mrestoinfo: Mr.restopos menjadi solusi terbaik untuk kebutuhan simple lengkap mudah digunakan dalam menunjang bisnis usaha kuliner restoran cafe rumah makan, bukan sekedar aplikasi biasa tetapi juga terintegrasi dengan website informatif yang menarik untuk bisnis kuliner.
 mrestofitur1: Master database - User account dan hak akses, supplier, pelanggan , member, komisi untuk grabfood, shopefood, gofood, meja, laporan data all details. 
@@ -42,6 +44,7 @@ bangrestodownload: https://mesinkasir.github.io/e-catalog/bang%20resto%20aplikas
 bangrestolink: /shop#!/Bang-Resto-WebApp/p/510213935/category=0
 bangrestobtn: Order Bang Resto
 unipos: Unipos
+uniposweb: https://programrestoran.axcora.com/
 uniposcover: assets/img/unipos.webp
 uniposinfo: Unipos solusi lengkap untuk bisnis dan usaha kuliner rumah makan restoran dalam bekerja, dengan desktop mode memberikan kemudahan untuk bekerja via offline, tentunya kita juga dapat membagi divisi untuk kebutuhan nya, seperti waiters tablet order, mesin kasir, kitchen display dan print, admin hingga kebutuhan cloud web app dalam update mode untuk integrasi dengan webadmin backend.
 uniposfitur1: Master database - User , password, hak akses, gudang penyimpanan, customer pelanggan include pengaturan diskon otomatis maupun penerapan saldo , lokasi area resto cafe, meja, setting PPn dan non PPn pada penjualan. 

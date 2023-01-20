@@ -1,4 +1,5 @@
 posx : POS-X
+posxweb : https://posx.axcora.com
 posxinfo : POS-X Adalah solusi mudah dan cepat dalam digunakan untuk mendukung pembukuan toko dan minimarket , dengan skema system yang lengkap, pun dukungan integrasi dengan website informasi bisnis, menggunakan pos-x menjadi lebih baik untuk kebutuhan mobilitas, efisiensi , bekerja dengan cloud mode memudahkan untuk cek laporan dimana saja dan kapan saja real time online. plus dukungan dan kemampuan nya untuk digunakan dengan staff login app untuk admin, stok dan kasir.
 posxcover : assets/img/posx.webp
 posxdownload : https://mesinkasir.github.io/e-catalog/POS-X%20web%20apps.pdf
@@ -11,6 +12,7 @@ posxfitur3 : Point of sale penjualan - Penjualan kasir dengan gambar dan barcode
 posxfitur4 : Laporan - rangkuman seluruh laporan detail , stok inventori persediaan produk , penjualan detail perhari, mingguan, bulanan dan customises, laba rugi dan lain nya. 
 posxfitur5 : CMS content management system - untuk kebutuhan update website frontend dengan fitur homepage, about, privacy,contact dan menu yang terintegrasi dengan data menu pada aplikasi toko. 
 robopos : Robopos
+roboposweb : https://robopos.axcora.com
 roboposinfo : Jika membutuhkan aplikasi toko lengkap dan mampu handle pesanan pelanggan secara online via toko online shop website , include dengan pengiriman barang produk, maka menggunakan robopos adalah solusi tepat. Robopos bukan sekedar aplikasi yang lengkap tetapi juga terintegrasi dengan toko online shop website yang memungkinkan pelanggan melakukan order secara online.
 roboposcover : assets/img/robopos.webp
 roboposdownload: https://mesinkasir.github.io/larapos/e-catalog/RoboPOS%20App.pdf
@@ -25,6 +27,7 @@ roboposfitur5 : Transaksi - Pembelian, list pembelian, pembayaran ke supplier, b
 roboposfitur6 : POS Point of sale penjualan kasir - Metode penjualan display UI modern dengan gambar foto produk dan support dengan barcode system technology, plus dukungan grouping katgeori produk, penjualan dengan penggunaan pilihan dan lain sebagai nya. 
 roboposfitur7 : Laporan - Laporan laporan detail rangkuman lengkap, stok persediaan, best seller, minimum stok, expired stok produk,produk, penjualan detail, laba rugi, pembayaran, semua fitur laporan detail lengkap. 
 lava : Lava Apps
+lavaweb : https://lava.axcora.com
 lavainfo : Kebutuhan untuk menjual produk dengan harga grosir dan eceran maka menggunakan lava app adalah solusi tepat untuk mu, dengan mudah kita dapat setting harga jual grosir dan eceran ,plus dukungan penuh untuk menjual produk dengan harga grosir dan eceran pada point of sale display pos.
 lavacover : assets/img/lavaapp.webp
 lavadownload: https://mesinkasir.github.io/e-catalog/lavaapp.pdf
@@ -37,6 +40,7 @@ lavafitur3 : Laporan - Laporan detail semua fitur mulai dari inventori persediaa
 lavafitur4 : Website - Fitur content management system untuk melakukan update perubahan pada website terintegrasi aplikasi toko grosir dan eceran secara langsung. 
 lavafitur5 : Dashboard - Dashboard panel dengan fitur grafik rangkuman laporan detail. 
 chrompos : ChromPos
+chromposweb : https://programtoko.axcora.com
 chromposinfo : Software program toko lengkap untuk kebutuhan desktop mode offline version dan dapat diupdate menjadi hybrid version dengan integrasi cloud database, plus integrasi web admin untuk kemudahan cek laporan dimana saja dan kapan saja secara real time online dalam bekerja.
 chromposcover : assets/img/chrompos.webp
 chromposdownload: https://mesinkasir.github.io/e-catalog/CHROMPOS%20retail.pdf
