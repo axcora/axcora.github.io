@@ -46,7 +46,7 @@ chromposcover : assets/img/chrompos.webp
 chromposdownload: https://mesinkasir.github.io/e-catalog/CHROMPOS%20retail.pdf
 chromposvideo : foa0IlLn_yw
 chromposbtn : Order Chrompos
-chromposlink : https://axcora.com/shop#!/chrompos/p/510788522/category=0
+chromposlink : /shop#!/chrompos/p/510788522/category=0
 chromposfitur1 : Master database - User , password, hak akses, gudang penyimpanan, customer pelanggan include pengaturan diskon otomatis maupun penerapan saldo , lokasi area kasa, setting PPn dan non PPn pada penjualan. 
 chromposfitur2 : Produk - pengelompokan produk via grouping , pendaftaran produk dengan barcode dan gambar, produk dengan stok maupun non stok jasa, pembuatan paket dan rakitan produk, penggunaan pilihan seperti ukuran warna dan lain lain. 
 chromposfitur3 : Inventori - Transaksi in out stok dengan berbagai kebutuhan dalam bekerja , seperti in stok pembelian, out stok karna barang hilang / expired / rusak dan stok opname hingga transfer stok dan open pak produk untuk konversi satuan terbesar menjadi satuan terkecil.
