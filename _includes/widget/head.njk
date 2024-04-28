@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+<head>
+<meta charset="utf-8">
+{% include "widget/seo.njk" %}
+<meta property="og:locale" content="{{metadata.locale}}" />
+<link rel="manifest" href="/manifest.json" crossorigin="use-credentials"/>
+{%- css %}{% include "public/css/axcora.css" %}{% endcss %}
+<style>{% getBundle "css" %}</style>
+</head>
+<body>
+{% include "widget/nav.njk" %}

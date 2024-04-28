@@ -1,0 +1,11 @@
+<div class="row">
+{% for post in postslist | reverse %}
+<div class="col-md-4 p-3">
+{% if post.data.image %}<a title="{{post.data.title}}" href="{{ post.url }}"><img class="img-fluid" alt="{{post.data.title}}" src="{{post.data.image}}"/></a>{% endif %}
+<div class="p-3">
+<h3><strong><a title="{{post.data.title}}" href="{{post.url}}">{{post.data.title}}</a></strong></h3>
+<p>{{post.data.description}}</p>
+</div>
+</div>
+{% endfor %}
+</div>

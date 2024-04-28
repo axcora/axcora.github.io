@@ -1,0 +1,97 @@
+---
+layout: layouts/base.njk
+---
+<div class="container">
+<div class="row mt-5">
+<div class="col-md-10 mx-auto p-3 p-md-5">
+<h1 class="lead col-md-8"><strong><small><a href="{{page.url}}" title="{{title}}">{{description}}</a></small></strong></h1>
+<h2 class="title"><strong>{{title}}</strong></h2>
+<p class="col-md-10 mt-3">{%- for tag in tags | filterTagList %}{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+<a href="{{ tagUrl }}" class="me-1" title="{{ tag }} {{title}}"><small>#{{ tag }}</small></a>
+{%- if not loop.last %}{% endif %}{%- endfor %}</p>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-12 p-3">
+<div id="my-store-{{metadata.store}}"></div>
+<div><script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?224387&data_platform=code&data_date=2024-04-20" charset="utf-8"></script>
+<script type="text/javascript"> 
+window.ec=window.ec||{}; 
+window.ec.storefront=window.ec.storefront||{}; 
+window.ec.storefront.enable_navigation=true;
+window.ec.storefront.product_details_layout="TWO_COLUMNS_SIDEBAR_ON_THE_RIGHT";
+window.ec.storefront.product_details_gallery_layout="SINGLE_IMAGE";
+window.ec.storefront.product_details_two_columns_with_right_sidebar_show_product_description_on_sidebar=true;
+window.ec.storefront.product_details_two_columns_with_left_sidebar_show_product_description_on_sidebar=false;
+window.ec.storefront.product_details_show_product_name=true;
+window.ec.storefront.product_details_show_breadcrumbs=true;
+window.ec.storefront.product_details_show_product_sku=false;
+window.ec.storefront.product_details_show_product_price=true;
+window.ec.storefront.product_details_show_in_stock_label=true;
+window.ec.storefront.product_details_show_number_of_items_in_stock=true;
+window.ec.storefront.product_details_show_qty=true;
+window.ec.storefront.product_details_show_wholesale_prices=true;
+window.ec.storefront.product_details_show_product_options=true;
+window.ec.storefront.product_details_show_product_description=true;
+window.ec.storefront.product_details_show_delivery_time=undefined;
+window.ec.storefront.product_details_show_share_buttons=true;
+window.ec.storefront.product_details_position_product_name=200;
+window.ec.storefront.product_details_position_breadcrumbs=100;
+window.ec.storefront.product_details_position_product_sku=300;
+window.ec.storefront.product_details_position_product_price=400;
+window.ec.storefront.product_details_position_product_options=600;
+window.ec.storefront.product_details_position_buy_button=700;
+window.ec.storefront.product_details_position_wholesale_prices=800;
+window.ec.storefront.product_details_position_product_description=900;
+window.ec.storefront.product_details_position_delivery_time=undefined;
+window.ec.storefront.product_details_position_share_buttons=1000;
+window.ec.storefront.product_details_position_subtitle=500;
+window.ec.storefront.product_details_show_subtitle=true;
+xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","defaultProductId={{id}}",
+"defaultSlug=mesin-kasir-touchscreen-version-2","id=my-store-{{metadata.store}}");
+</script>
+</div>
+</div>
+<div class="col-md-10 mx-auto p-3">
+<div href="" class="border border-primary rounder p-3 p-md-5">
+<h3><a href="{{page.title}}" title="{{product.title}}">{{product.title}}</a></h3>
+<p>
+Untuk mendapatkan informasi mengenai bagaimana spesifikasi dan fitur serta konsep kerja {{product.title}} , Kunjungi halaman informasi detail.
+</p>
+<p><a href="{{product.link}}">
+Informasi lebih lanjut tentang {{product.title}} →
+</a></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-8 mx-auto">
+{%- if collections.jual %}
+{%- set previousPost = collections.jual | getPreviousCollectionItem %}
+{%- set nextPost = collections.jual| getNextCollectionItem %}
+{%- if nextPost or previousPost %}
+<div class="row">
+<div class="col-md-6 p-3">
+{%- if previousPost %}
+<div class="p-3 bg-dark rounder">
+<p><small>← Terbaru</small></p>
+<h3><a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></h3>
+</div>
+</div>
+{% endif %}
+<div class="col-md-6 p-3 text-end">
+{%- if nextPost %}
+<div class="p-3 bg-dark rounder">
+<p><small>Selanjutnya →</small></p>
+<h3><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></h3>
+</div>
+</div>
+{% endif %}
+</div>
+</div>
+{%- endif %}
+{%- endif %}
+</div>
