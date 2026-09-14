@@ -7,7 +7,7 @@ hero:
   title: "We engineer sovereign web systems"
   title_em: "with architectural integrity and applied intelligence."
   desc: "Axcora Zetta Core is not a template vendor. We architect zero-bloat JAMstack in 8 languages, SAEDI Vision AI, and forensic finance automation — 90++ Lighthouse, immutable, auditable, own 100%. Built for founders who need to rank, not rent."
-  info: "Operating as creativitas on Fiverr — 10.5k+ escrow-verified reviews — now sovereign as Axcora Technology Lab"
+  info: "Operating as creativitas on Fiverr — 72+ escrow-verified reviews — now sovereign as Axcora Technology Lab"
   cta_primary:
     title: "Enter The Lab →"
     url: "/labs/"
