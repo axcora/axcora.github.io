@@ -1,7 +1,7 @@
 <nav aria-label="Primary">
   <a class="brand" href="{{metadata.url}}">
     <div class="brand-mark">
-    <img width="24" height="24" src="{{metadata.navbar.logo}}" alt="{{metadata.navbar.title}} logo">
+    <img width="24" height="24" src="{{metadata.navbar.logo}}" alt="{{metadata.navbar.title}} logo" loading="eager">
     </div>
     <div>
       <div class="branded">{{metadata.navbar.title}}</div>

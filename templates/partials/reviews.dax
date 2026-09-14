@@ -17,7 +17,7 @@
 
   <div style="margin-top:28px;border:1px solid var(--border);border-radius:12px;overflow:hidden;opacity:.9">
     <a href="{{ reviews.image_url }}" target="_blank">
-      <img src="{{reviews.image}}" alt="Fiverr 10.5k reviews proof Axcora" loading="lazy" style="width:100%;height:auto;display:block" />
+      <img src="{{reviews.image}}" alt="Fiverr 10.5k reviews proof Axcora" loading="lazy" width="1200" height="630" style="width:100%;height:auto;display:block" />
     </a>
   </div>
 </section>

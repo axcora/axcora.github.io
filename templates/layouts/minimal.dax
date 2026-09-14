@@ -10,18 +10,8 @@
 {% include nav.dax %}
 <main>
 {{content}}
-<main>
-<div class="cta">
-  <div class="cta-bg"></div>
-  <img width="124" height="124" src="{{metadata.logo}}" alt="{{metadata.title}} logo" loading="lazy">
-  <h2 class="cta-title">{{ metadata.cta.title }} <em class="cta-em">{{ metadata.cta.title_em }}</em></h2>
-  <p class="cta-desc">{{ metadata.cta.desc }}</p>
-  <div class="cta-btn-g">
-    <a class="btn primary cta-btns" href="{{ metadata.cta.primary.url }}" target="_blank">{{ metadata.cta.primary.title }}</a>
-    <a class="btn cta-btna" href="{{ metadata.cta.secondary.url }}">{{ metadata.cta.secondary.title }}</a>
-  </div>
-  <div class="cta-foot">{{ metadata.cta.foot }}</div>
-</div>
+{% include cta.dax %}
+</main>
 {% include footer.dax %}
 <script src="/js/axcora.js" defer></script>
 </body>
