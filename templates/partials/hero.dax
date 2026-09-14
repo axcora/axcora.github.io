@@ -1,0 +1,15 @@
+<section class="hero" aria-labelledby="hero-title">
+  <div class="kicker"><span class="hrs"></span> {{ hero.kicker }}</div>
+  <h1 id="hero-title">{{ hero.title }} <em>{{ hero.title_em }}</em></h1>
+  <p>{{ hero.desc }}</p>
+  <p>{{ hero.info }}</p>
+  <div class="hero-ct">
+    <a class="btn primary bt-ct" href="{{ hero.cta_primary.url }}">{{ hero.cta_primary.title }}</a>
+    <a class="btn bt-ct" href="{{ hero.cta_secondary.url }}">{{ hero.cta_secondary.title }}</a>
+  </div>
+  <div class="hero-stats">
+    {% for stat in hero.stats %}
+    <div class="stat"><b class="stat-b">{{ stat.value }}</b>{{ stat.label }}</div>
+    {% endfor %}
+  </div>
+</section>

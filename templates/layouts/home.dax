@@ -1,0 +1,6 @@
+---
+layout: minimal.dax
+---
+{% include 'hero.dax' %}
+{% include 'services.dax' %}
+{% include 'reviews.dax' %}

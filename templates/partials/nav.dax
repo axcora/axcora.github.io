@@ -1,0 +1,20 @@
+<nav aria-label="Primary">
+  <a class="brand" href="{{metadata.url}}">
+    <div class="brand-mark">
+    <img width="24" height="24" src="{{metadata.navbar.logo}}" alt="{{metadata.navbar.title}} logo">
+    </div>
+    <div>
+      <div class="branded">{{metadata.navbar.title}}</div>
+      <div class="brand-desc">{{metadata.navbar.desc}}</div>
+    </div>
+  </a>
+  <ul class="nav-links" id="navMenu">{% for n in metadata.navbar.list %}
+    <li><a href="{{n.url}}">{{n.title}}</a></li>
+  {% endfor %}
+    <li><a class="btn primary wt" href="{{metadata.navbar.button.url}}" target="_blank">{{metadata.navbar.button.title}}</a></li>
+  </ul>
+  <div class="ng">
+    <button class="btn lg" id="themeBtn">◑</button>
+    <button class="btn lg mobi" id="mobBtn">☰</button>
+  </div>
+</nav>

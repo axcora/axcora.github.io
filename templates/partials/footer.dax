@@ -1,0 +1,1 @@
+<footer class="footeres"><span>© <a href="{{metadata.url}}">{{metadata.title}}</a></span><span>Built with <a href="https://dax.axcora.com" target="_blank">DAX .NET SSG</a> | <a href="https://axcora.my.id" target="_blank" noreferrer>Axcora Lab</a></span></footer>

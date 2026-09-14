@@ -1,0 +1,20 @@
+---
+layout: minimal.dax
+---
+<div class="section" style="border-bottom:none">
+  <div class="sec-head">
+    <h2>Lab index.<br>All architectures tagged.</h2>
+    <p>Sovereign systems, Zetta Core R&D, SAEDI Vision AI — indexed by research stream. Own 100%, not rented.</p>
+  </div>
+
+  <div class="grid">
+    {% for tag in tags %}
+    <div class="card">
+      <div style="font-size:10px;margin-bottom:12px;letter-spacing:.1em;text-transform:uppercase;opacity:.6">TAG • {{ tag }} </div>
+      <h3><a href="/tags/{{tag}}/">{{tag}}</a></h3>
+      <p style="margin-top:8px;opacity:.7">Explore {{tag}} research and sovereign deliveries.</p>
+      <div style="margin-top:16px"><a class="btn" href="/tags/{{tag}}/">View →</a></div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

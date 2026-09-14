@@ -1,0 +1,34 @@
+title: Axcora Technology — Sovereign Web Architect & AI Research Lab
+description: "Axcora Zetta Core is a sovereign R&D lab. We engineer zero-bloat SSG in 8 languages, SAEDI Vision AI, finance automation & forensic intelligence. 99/100 Lighthouse, own 100%, immutable — not a template vendor."
+url: https://axcora.com
+author: Axcora Technology
+image: /img/axcoranewlogored.webp
+logo: /img/axcoranewlogored.webp
+icon: /img/axcoranewlogored.webp
+
+navbar: 
+  logo: /img/axcoranewlogored.webp
+  title: Axcora — Zetta Core
+  desc: Sovereign Web Architect & AI Research Lab
+  list: 
+    - title: "Research Lab"
+      url: "/labs/"
+    - title: "Architectures"
+      url: "/#services"
+  button: 
+    title: "Commission via Fiverr →"
+    url: "https://www.fiverr.com/creativitas/create-your-custom-website-and-app"
+
+keywords: "sovereign web architect, Zetta Core, SAEDI Vision AI, forensic AI, DAX .NET SSG, Pycora, headless commerce, JAMstack architect"
+
+cta:
+  title: "Should your brand exist"
+  title_em: "everywhere, with dignity?"
+  desc: "We partner with a limited number of clients each month to ensure architectural depth and precision. All commissions secured via Fiverr escrow for transparency and protection."
+  primary:
+    title: "Commission Your Architecture →"
+    url: "https://www.fiverr.com/creativitas/create-your-custom-website-and-app"
+  secondary:
+    title: "Explore Lab R&D"
+    url: "/labs/"
+  foot: "Secured via Fiverr Escrow • $50-$5,000 Range • 10.5k+ Deliveries • Own 100% Since 2018"

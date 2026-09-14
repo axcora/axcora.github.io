@@ -1,0 +1,7 @@
+<section id="services" class="section"><div class="sec-head"><h2>{{ services.title }}</h2><p>{{ services.desc }}</p></div>
+<div class="grid sgr">
+{% for item in services.items %}
+<a class="card" href="{{ item.url }}" target="_blank"><div class="card-meta"><span>{{ item.no }} — {{ item.cat }}</span><span>{{ item.imp }}</span></div><h3>{{ item.title }}</h3><div class="desc">{{ item.desc }}</div><div class="card-foot"><span>Commission via Fiverr →</span><span>{{ item.foot }}</span></div></a>
+{% endfor %}
+</div>
+</section>

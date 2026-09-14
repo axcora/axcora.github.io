@@ -1,0 +1,40 @@
+---
+layout: minimal.dax
+---
+<div class="detail content">
+<div style="font-family:'Geist Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted2);margin-bottom:16px">{{ badge }} • {{ group }} • {{ status }}</div>
+<h1>{{ title }}</h1>
+<p class="lead">{{ description }}</p>
+
+{% if video.id %}
+<div class="video-wrap" data-yt="{{ video.id }}"><div class="lite" role="button" tabindex="0"><img src="https://img.youtube.com/vi/{{ video.id }}/hqdefault.jpg" loading="lazy" width="640" height="360" alt="{{ title }}"><div class="play">▶</div></div></div>
+<p style="font-family:'Geist Mono',monospace;font-size:10px;color:var(--muted2);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:32px">{{ video.info }}</p>
+{% endif %}
+
+{% if image %}
+<img src="{{ image }}" loading="lazy" width="800" height="450" alt="{{ title }}" style="width:100%;border:1px solid var(--border);margin-bottom:24px;aspect-ratio:16/9;object-fit:cover">
+{% endif %}
+
+{{ content }}
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);border:1px solid var(--border);margin-bottom:32px">
+{% if source_code %}
+<div style="background:var(--bg);padding:16px"><div style="font-family:'Geist Mono',monospace;font-size:10px;color:var(--muted2);margin-bottom:6px">DEMO / SOURCE</div><a href="{{ source_code }}" target="_blank" style="color:var(--red);font-family:'Geist Mono',monospace;font-size:12px">GitHub →</a></div>
+{% endif %}
+{% if order %}
+<div style="background:var(--bg);padding:16px"><div style="font-family:'Geist Mono',monospace;font-size:10px;color:var(--muted2);margin-bottom:6px">COMMISSION</div><a href="{{ order }}" target="_blank" style="color:var(--text);font-family:'Geist Mono',monospace;font-size:12px">Commission via Fiverr →</a></div>
+{% endif %}
+</div>
+
+<div class="tags" style="margin:16px 0 24px">
+{% for t in tags %}
+<span><a href="/tags/{{ t }}">{{ t }}</a></span>
+{% endfor %}
+</div>
+
+<div class="detail-nav">
+{% if prev_post %}<a href="{{ prev_post.url }}">← Prev Project </a>{% endif %}
+<a href="/labs/">↑ All Lab</a>
+{% if next_post %}<a href="{{ next_post.url }}">Next Project →</a>{% endif %}
+</div>
+</div>

@@ -1,0 +1,23 @@
+<section class="section" id="reviews">
+  <div class="sec-head">
+    <h2>{{reviews.title}}.<br><em>{{reviews.title_em}}</em></h2>
+    <p>{{reviews.description}}</p>
+  </div>
+
+  <div class="grid sgr" style="grid-template-columns: repeat(auto-fit,minmax(320px,1fr));">
+    {% for r in reviews.list %}
+    <div class="card" style="cursor:default">
+      <div class="card-meta"><span>{{ r.stars }}</span><span>{{ r.badge }}</span></div>
+      <h3 style="font-size:1.1rem;line-height:1.3">“{{ r.title }}”</h3>
+      <div class="desc" style="margin-top:12px">{{ r.desc }}</div>
+      <div class="card-foot"><span><a href="{{ r.link }}" target="_blank">View on Fiverr →</a></span><span>{{ r.country }}</span></div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div style="margin-top:28px;border:1px solid var(--border);border-radius:12px;overflow:hidden;opacity:.9">
+    <a href="{{ reviews.image_url }}" target="_blank">
+      <img src="{{reviews.image}}" alt="Fiverr 10.5k reviews proof Axcora" loading="lazy" style="width:100%;height:auto;display:block" />
+    </a>
+  </div>
+</section>

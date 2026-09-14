@@ -1,0 +1,21 @@
+---
+layout: minimal.dax
+---
+<div class="section" style="border-bottom:none;padding-bottom:24px"><div class="sec-head"><h2>Lab & Research.<br>Video proof, source, ownership.</h2><p>Research streams with YouTube proof. Optimized images & lite video. Direct commission via Fiverr only.</p></div>
+<div class="grid" id="grid">
+{% for post in pagination.items %}
+<div class="card" data-group="{{ post.group | downcase }}">
+<div style="font-size:10px;margin:10px 0">{{ post.badge }} • {{ post.group }} • {{ post.status }}</div>
+<a href="{{ post.url }}"><img src="{{ post.image or metadata.image }}" alt="{{ post.title }}" style="width:100%;aspect-ratio:16/9;object-fit:cover"></a>
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+<p>{{ post.description }}</p>
+</div>
+{% endfor %}
+</div>
+
+<div class="pagination" style="display:flex;gap:8px;justify-content:center;margin:32px 0">
+{% if pagination.prev_url %}<a class="btn" href="{{ pagination.prev_url }}">← Previous</a>{% endif %}
+<span class="btn active">Page {{ pagination.current_page }} / {{ pagination.total_pages }}</span>
+{% if pagination.next_url %}<a class="btn" href="{{ pagination.next_url }}">Next →</a>{% endif %}
+</div>
+</div>

@@ -1,0 +1,51 @@
+<meta name="google-site-verification" content="fJTzwsNcz2AtRxQpJZzU7db7TLPdR_lKSAXfyWDtHB4">
+<meta name="generator" content="DAX dotnet - Pure C# Slim SSG">
+<meta name="author" content="{{ metadata.author }}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>{{ title or metadata.title }}</title>
+<meta name="description" content="{{ description or metadata.description }}">
+<link rel="canonical" href="{{ metadata.url }}{{ url }}">
+<meta property="og:type" content="{% if url == '/' %}website{% else %}article{% endif %}">
+<meta property="og:site_name" content="Axcora Technology">
+<meta property="og:title" content="{{ title or metadata.title }}">
+<meta property="og:description" content="{{ description or metadata.description }}">
+<meta property="og:url" content="{{ metadata.url }}{{ url }}">
+<meta property="og:image" content="{{ metadata.url }}{{ image or metadata.image }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ title or metadata.title }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ title or metadata.title }}">
+<meta name="twitter:description" content="{{ description or metadata.description }}">
+<meta name="twitter:image" content="{{ metadata.url }}{{ image or metadata.image }}">
+<link href="{{metadata.icon}}" rel="icon" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,300;1,6..72,300&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>html{font-display:swap}</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Axcora Technology",
+  "alternateName": "creativitas — Axcora Lab on Fiverr",
+  "url": "{{ metadata.url }}",
+  "logo": "{{ metadata.url }}/img/axcoranewlogored.png",
+  "description": "{{ description or metadata.description }}",
+  "sameAs": [
+    "https://www.fiverr.com/creativitas/",
+    "https://github.com/mesinkasir"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "{{ metadata.author or site.author }}"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "10500",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
+</script>

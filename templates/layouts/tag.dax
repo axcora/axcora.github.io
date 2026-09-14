@@ -1,0 +1,26 @@
+---
+layout: minimal.dax
+---
+<div class="section" style="border-bottom:none;padding-bottom:24px">
+  <div class="sec-head">
+    <h2>{{ tag }}.<br>Sovereign research stream.</h2>
+    <p>All lab notes, architectures, and deliveries tagged with {{ tag }} — audited, immutable, own 100%.</p>
+    <div style="margin-top:16px;display:flex;gap:8px">
+      <a class="btn" href="/">← Home</a>
+      <a class="btn" href="/tags/">All Tags</a>
+      <span class="btn active">{{ tag }}</span>
+    </div>
+  </div>
+
+  <div class="grid" id="grid">
+    {% for post in posts %}
+    <div class="card" data-group="{{ post.group | downcase }}">
+      <a href="{{ post.url }}"><img src="{{ post.image or metadata.image }}" alt="{{ post.title }}" style="width:100%;aspect-ratio:16/9;object-fit:cover"></a>
+      <div style="font-size:10px;margin:10px 0;letter-spacing:.08em;text-transform:uppercase;opacity:.6">{{ post.date | date: "%Y • %b" }} • {{ tag }}</div>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.description }}</p>
+      <div style="margin-top:16px"><a class="btn" href="{{ post.url }}">Read →</a></div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
