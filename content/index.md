@@ -104,7 +104,7 @@ services:
       url: "https://www.fiverr.com/creativitas/design-modern-documentation-website-astro-js-stalight"
 reviews:
   title: "Escrow-verified, not claimed."
-  title_em: "10.5k+ deliveries audited by Fiverr — can't be faked."
+  title_em: "72+ deliveries audited by Fiverr — can't be faked."
   description: "No agency promises. Every delivery is secured via Fiverr escrow, timestamped, and reviewable. $50 to $5,000 — same architect, same Zetta Core standard. Click to audit."
   image: /img/review.webp
   image_url: https://www.fiverr.com/creativitas/design-your-website-with-progresive-web-application

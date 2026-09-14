@@ -8,7 +8,9 @@
 </head>
 <body data-theme="dark">
 {% include nav.dax %}
+<main>
 {{content}}
+<main>
 <div class="cta">
   <div class="cta-bg"></div>
   <img width="124" height="124" src="{{metadata.logo}}" alt="{{metadata.title}} logo" loading="lazy">
