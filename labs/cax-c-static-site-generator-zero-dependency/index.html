@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="fJTzwsNcz2AtRxQpJZzU7db7TLPdR_lKSAXfyWDtHB4">
+<meta name="generator" content="DAX dotnet - Pure C# Slim SSG">
+<meta name="author" content="Axcora Technology">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>CAX SSG — Static Site Generator in C | Zero Dependency, 50ms Build, Single Binary</title>
+<meta name="description" content="High-performance static site generator written in pure C99 — zero dependencies, <50ms build for 100 pages, <500KB binary, <5MB RAM. Markdown + YAML frontmatter, Eleventy-style collections, auto SEO.">
+<link rel="canonical" href="https://axcora.com/labs/cax-c-static-site-generator-zero-dependency/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Axcora Technology">
+<meta property="og:title" content="CAX SSG — Static Site Generator in C | Zero Dependency, 50ms Build, Single Binary">
+<meta property="og:description" content="High-performance static site generator written in pure C99 — zero dependencies, <50ms build for 100 pages, <500KB binary, <5MB RAM. Markdown + YAML frontmatter, Eleventy-style collections, auto SEO.">
+<meta property="og:url" content="https://axcora.com/labs/cax-c-static-site-generator-zero-dependency/">
+<meta property="og:image" content="https://axcora.com/img/axcoranewlogored.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="CAX SSG — Static Site Generator in C | Zero Dependency, 50ms Build, Single Binary">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CAX SSG — Static Site Generator in C | Zero Dependency, 50ms Build, Single Binary">
+<meta name="twitter:description" content="High-performance static site generator written in pure C99 — zero dependencies, <50ms build for 100 pages, <500KB binary, <5MB RAM. Markdown + YAML frontmatter, Eleventy-style collections, auto SEO.">
+<meta name="twitter:image" content="https://axcora.com/img/axcoranewlogored.webp">
+<link href="/img/axcoranewlogored.webp" rel="icon" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,300;1,6..72,300&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>html{font-display:swap}</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Axcora Technology",
+  "alternateName": "creativitas — Axcora Lab on Fiverr",
+  "url": "https://axcora.com",
+  "logo": "https://axcora.com/img/axcoranewlogored.png",
+  "description": "High-performance static site generator written in pure C99 — zero dependencies, <50ms build for 100 pages, <500KB binary, <5MB RAM. Markdown + YAML frontmatter, Eleventy-style collections, auto SEO.",
+  "sameAs": [
+    "https://www.fiverr.com/creativitas/",
+    "https://github.com/mesinkasir"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Axcora Technology"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "10500",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/css/axcora.css">
+</head>
+<body data-theme="dark">
+<nav aria-label="Primary">
+  <a class="brand" href="https://axcora.com">
+    <div class="brand-mark">
+    <img width="24" height="24" src="/img/axcoranewlogored.webp" alt="Axcora — Zetta Core logo">
+    </div>
+    <div>
+      <div class="branded">Axcora — Zetta Core</div>
+      <div class="brand-desc">Sovereign Web Architect & AI Research Lab</div>
+    </div>
+  </a>
+  <ul class="nav-links" id="navMenu">
+    <li><a href="/labs/">Research Lab</a></li>
+  
+    <li><a href="/#services">Architectures</a></li>
+  
+    <li><a class="btn primary wt" href="https://www.fiverr.com/creativitas/create-your-custom-website-and-app" target="_blank">Commission via Fiverr →</a></li>
+  </ul>
+  <div class="ng">
+    <button class="btn lg" id="themeBtn">◑</button>
+    <button class="btn lg mobi" id="mobBtn">☰</button>
+  </div>
+</nav>
+<div class="detail content">
+<div style="font-family:'Geist Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted2);margin-bottom:16px">CAX C • CAX Core • core</div>
+<h1>CAX SSG — Static Site Generator in C | Zero Dependency, 50ms Build, Single Binary</h1>
+<p class="lead">High-performance static site generator written in pure C99 — zero dependencies, <50ms build for 100 pages, <500KB binary, <5MB RAM. Markdown + YAML frontmatter, Eleventy-style collections, auto SEO.</p>
+
+
+<div class="video-wrap" data-yt="5hNO1FrOhQA"><div class="lite" role="button" tabindex="0"><img src="https://img.youtube.com/vi/5hNO1FrOhQA/hqdefault.jpg" loading="lazy" width="640" height="360" alt="CAX SSG — Static Site Generator in C | Zero Dependency, 50ms Build, Single Binary"><div class="play">▶</div></div></div>
+<p style="font-family:'Geist Mono',monospace;font-size:10px;color:var(--muted2);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:32px">CAX Demo youtu.be/5hNO1FrOhQA — C SSG pure C99 zero dep 50ms build — Lite YouTube</p>
+
+
+
+
+<h3>CAX SSG — Static Site Generator in C — C for Speed. Built by AXCORA.</h3>
+
+<p>As documented on ca.axcora.com / cax.axcora.com and github.com/mesinkasir/cax.</p>
+
+<p>High-performance, zero-dependency static site generator written in pure C. Inspired by Eleventy and Jekyll DX, but engineered for raw C speed. No Node.js, Ruby, Python. Single binary.</p>
+
+<p><strong>Why CAX as stated on cax.axcora.com:</strong></p>
+<p>The web became a factory fire — 300MB node_modules to render a paragraph. CAX returns to first principles: single binary, sub-second builds, output so clean you can read it like a blueprint. Forged for writers, engineers, ateliers who value longevity over trends. Markdown in, timeless HTML out. No runtime. No tracking.</p>
+
+<p><strong>Tech Core from GitHub:</strong></p>
+
+<ul><li><strong>Pure C99:</strong> No Node.js, Ruby, Python. Single binary 200KB-1.2MB</li>
+<li><strong>Zero Dependencies:</strong> GCC + Make only, <500KB binary</li>
+<li><strong>Blazing Fast:</strong> Build 100 pages <50ms, <5MB RAM — 1000 pages 420ms on M1 as stated on site, incremental <30ms</li>
+<li><strong>Markdown + Frontmatter:</strong> YAML frontmatter support</li>
+<li><strong>Zero JS Runtime:</strong> Pure HTML/CSS, optional progressive islands</li>
+
+<p><strong>Features — Eleventy-style but C speed:</strong></p>
+
+<li><strong>Pagination Controllers:</strong> Any <code>content/*.md</code> with <code>collection:</code> + <code>pagination:</code> becomes list page</li>
+<li><strong>Dynamic Collections:</strong> Every folder in <code>content/</code> is a collection</li>
+<li><strong>Multi Layout Support:</strong> <code>posts-list.cax</code>, <code>services-list.cax</code>, <code>portfolio-grid.cax</code> fully dynamic</li>
+<li><strong>Advanced Template Engine:</strong> <code>{{ variables }}</code>, <code>{% for %}</code>, <code>{% if %}</code>, <code>{% include %}</code></li>
+<li><strong>Pagination Object:</strong> <code>pagination.items</code>, <code>pagination.prev_url</code>, <code>pagination.next_url</code>, <code>pagination.current_page</code>, <code>pagination.total_pages</code>, <code>pagination.total_items</code></li>
+
+<p><strong>SEO & Production Ready — auto-generated in site/ on every build:</strong></p>
+
+<li>Tags & Taxonomies — automatic <code>/tags/{tag}/</code> pages</li>
+<li>Sitemap — full <code>sitemap.xml</code> including pagination</li>
+<li>Feeds — <code>feed.xml</code>, <code>rss.xml</code>, <code>feed.json</code> JSON Feed 1.1</li>
+<li>Robots — auto <code>robots.txt</code> with sitemap reference</li>
+<li>Built-in Server — <code>cax start</code> serves <code>site/</code> at http://localhost:8080</li>
+
+<p><strong>Project structure from repo:</strong></p>
+
+<li><code>content/index.md</code> → <code>/index.html</code></li>
+<li><code>content/posts.md</code> controller — <code>collection: posts</code> + <code>pagination: 6</code> → <code>/posts/</code>, <code>/posts/page/2/</code></li>
+<li><code>templates/layouts/default.cax</code>, <code>home.cax</code>, <code>posts-list.cax</code></li>
+<li><code>_data/metadata.json</code> — <code>site.title</code>, <code>site.url</code></li>
+<li><code>public/</code> — css, img copied</li>
+<li><code>site/</code> — generated output</li>
+
+<p></ul><strong>Quick start:</strong></p>
+
+<pre><code>git clone https://github.com/mesinkasir/cax.git
+<p>cd cax</p>
+<p>mingw32-make clean &amp;&amp; mingw32-make</p>
+<h1>or make linux</h1>
+<p>cax init</p>
+<p>cax build</p>
+<p>cax start</p>
+<p></code></pre></p>
+
+<p>Performance as stated:</p>
+
+<p>Build Time 100 pages <50ms</p>
+<p>Binary Size <500KB</p>
+<p>Memory Usage <5MB</p>
+<p>Dependencies Zero</p>
+<p>Mission: Restore craftsmanship to publishing. One binary that will outlive frameworks.</p>
+
+<p>Docs: cax.axcora.com — Starter: cax.axcora.com/starter/ — Minimalis: cax.axcora.com/minimalis/</p>
+
+<p>Video proof lite — loads on click only. CAX SSG — Eleventy DX with C Speed.</p>
+
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);border:1px solid var(--border);margin-bottom:32px">
+
+<div style="background:var(--bg);padding:16px"><div style="font-family:'Geist Mono',monospace;font-size:10px;color:var(--muted2);margin-bottom:6px">DEMO / SOURCE</div><a href="https://github.com/mesinkasir/cax" target="_blank" style="color:var(--red);font-family:'Geist Mono',monospace;font-size:12px">GitHub →</a></div>
+
+
+<div style="background:var(--bg);padding:16px"><div style="font-family:'Geist Mono',monospace;font-size:10px;color:var(--muted2);margin-bottom:6px">COMMISSION</div><a href="https://www.fiverr.com/creativitas/create-your-custom-website-and-app" target="_blank" style="color:var(--text);font-family:'Geist Mono',monospace;font-size:12px">Commission via Fiverr →</a></div>
+
+</div>
+
+<div class="tags" style="margin:16px 0 24px">
+
+<span><a href="/tags/CAX">CAX</a></span>
+
+<span><a href="/tags/C SSG">C SSG</a></span>
+
+<span><a href="/tags/static site generator">static site generator</a></span>
+
+<span><a href="/tags/pure C">pure C</a></span>
+
+<span><a href="/tags/Jamstack">Jamstack</a></span>
+
+<span><a href="/tags/Axcora">Axcora</a></span>
+
+<span><a href="/tags/Eleventy">Eleventy</a></span>
+
+</div>
+
+<div class="detail-nav">
+<a href="/labs/dax-dotnet-mission-to-destroy-bloat-js/">← Prev Project </a>
+<a href="/labs/">↑ All Lab</a>
+<a href="/labs/zetta-core-oracle-v8-autonomous-forensic-auditor/">Next Project →</a>
+</div>
+</div>
+<div class="cta">
+  <div class="cta-bg"></div>
+  <img width="124" height="124" src="/img/axcoranewlogored.webp" alt="Axcora Technology — Sovereign Web Architect & AI Research Lab logo" loading="lazy">
+  <h2 class="cta-title">Should your brand exist <em class="cta-em">everywhere, with dignity?</em></h2>
+  <p class="cta-desc">We partner with a limited number of clients each month to ensure architectural depth and precision. All commissions secured via Fiverr escrow for transparency and protection.</p>
+  <div class="cta-btn-g">
+    <a class="btn primary cta-btns" href="https://www.fiverr.com/creativitas/create-your-custom-website-and-app" target="_blank">Commission Your Architecture →</a>
+    <a class="btn cta-btna" href="/labs/">Explore Lab R&D</a>
+  </div>
+  <div class="cta-foot">Secured via Fiverr Escrow • $50-$5,000 Range • 10.5k+ Deliveries • Own 100% Since 2018</div>
+</div>
+<footer class="footeres"><span>© <a href="https://axcora.com">Axcora Technology — Sovereign Web Architect & AI Research Lab</a></span><span>Built with <a href="https://dax.axcora.com" target="_blank">DAX .NET SSG</a> | <a href="https://axcora.my.id" target="_blank" noreferrer>Axcora Lab</a></span></footer>
+<script src="/js/axcora.js" defer></script>
+</body>
+</html>
