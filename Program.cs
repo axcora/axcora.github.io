@@ -3,6 +3,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Text.RegularExpressions;
 using System.Net;
+using System.Threading;
 
 class Program
 {
@@ -154,18 +155,41 @@ class DaxBuilder
         return "";
     }
 
+    string SafeRead(string f, int retries = 5)
+    {
+        for (int i = 0; i < retries; i++)
+        {
+            try
+            {
+                using var fs = new FileStream(f, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
+                using var sr = new StreamReader(fs);
+                return sr.ReadToEnd();
+            }
+            catch (IOException)
+            {
+                Thread.Sleep(100 * (i+1));
+            }
+        }
+        return File.ReadAllText(f);
+    }
+
     void LoadContent()
     {
         AllPages = new();
         var mdFiles = Directory.GetFiles("content", "*.md", SearchOption.AllDirectories);
         foreach (var f in mdFiles)
         {
-            var raw = File.ReadAllText(f);
+            var raw = SafeRead(f);
             var (fm, body) = ParseFrontmatter(raw);
             var rel = Path.GetRelativePath("content", f).Replace("\\", "/");
             var isIndex = Path.GetFileNameWithoutExtension(f) == "index";
             string url;
-            if (rel == "index.md") url = "/";
+            if (fm.TryGetValue("permalink", out var perm) && perm != null && !string.IsNullOrWhiteSpace(perm.ToString()))
+            {
+                url = perm.ToString().Trim();
+                if (!url.StartsWith("/")) url = "/" + url;
+            }
+            else if (rel == "index.md") url = "/";
             else if (isIndex) url = "/" + Path.GetDirectoryName(rel).Replace("\\", "/") + "/";
             else
             {
@@ -323,7 +347,10 @@ class DaxBuilder
     });
     ctx["content"] = page.HtmlBody;
     var html = Engine.RenderWithLayouts(page.Frontmatter, ctx);
-    string outPath = page.Url == "/"? "site/index.html" : $"site{page.Url}index.html";
+    string outPath;
+    if (page.Url == "/") outPath = "site/index.html";
+    else if (page.Url.EndsWith(".html", StringComparison.OrdinalIgnoreCase)) outPath = $"site{page.Url}";
+    else outPath = $"site{page.Url}index.html";
     Directory.CreateDirectory(Path.GetDirectoryName(outPath));
     File.WriteAllText(outPath, html);
     AllUrls.Add(page.Url);
@@ -880,8 +907,9 @@ class DaxServer
             {
                 var full = e.FullPath.ToLower();
                 if (full.Contains("\\site\\") || full.Contains("/site/") || full.Contains("\\bin\\") || full.Contains("\\obj\\") || full.Contains("\\.git\\")) return;
-                if ((DateTime.Now - lastBuild).TotalMilliseconds < 500) return;
+                if ((DateTime.Now - lastBuild).TotalMilliseconds < 800) return;
                 lastBuild = DateTime.Now;
+                Thread.Sleep(150);
                 Console.WriteLine($"[DAX] changed {e.Name} -> rebuild");
                 new DaxBuilder().Build();
             }
