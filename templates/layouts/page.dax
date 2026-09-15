@@ -1,0 +1,19 @@
+---
+layout: minimal.dax
+---
+<div class="detail content" style="min-height:60vh; display:flex; flex-direction:column; justify-content:center;">
+<div style="font-family:'Geist Mono',monospace;font-size:10px;letter-spacing:0.24em;text-transform:uppercase;color:var(--red);margin-bottom:24px">404 • LEGACY PURGED • ZETTA CORE ONLY</div>
+
+<h1 style="font-size:clamp(48px,8vw,96px); line-height:0.9; letter-spacing:-0.04em; margin:0 0 24px;">LEGACY<br>DOES NOT<br>EXIST.</h1>
+
+<p class="lead" style="max-width:520px; font-size:18px; line-height:1.5; opacity:0.8;">{{ description }}</p>
+
+<div style="margin-top:48px; border-top:1px solid var(--border); padding-top:32px;">
+{{ content }}
+</div>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);border:1px solid var(--border);margin-top:48px">
+<div style="background:var(--bg);padding:24px"><div style="font-family:'Geist Mono',monospace;font-size:10px;color:var(--muted2);margin-bottom:12px;letter-spacing:0.12em">01 — RETURN TO SOVEREIGN</div><a href="/" style="color:var(--text);font-family:serif;font-size:20px;text-decoration:none;">Axcora Technology →</a></div>
+<div style="background:var(--bg);padding:24px"><div style="font-family:'Geist Mono',monospace;font-size:10px;color:var(--muted2);margin-bottom:12px;letter-spacing:0.12em">02 — COMMISSION VIA ESCROW</div><a href="https://www.fiverr.com/creativitas" target="_blank" style="color:var(--red);font-family:serif;font-size:20px;text-decoration:none;">Fiverr Escrow →</a></div>
+</div>
+</div>
