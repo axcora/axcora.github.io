@@ -84,7 +84,7 @@ services:
     - no: "09"
       cat: "Web Presence"
       imp: "Rank on Google"
-      title: "Premium Web Presence — Rank on Google, 100 PageSpeed"
+      title: "Premium Web Presence — Rank on Google, 90++ PageSpeed"
       desc: "Your competitors rank. You don't. Premium web presence with forensic SEO architecture — crafted to rank, not rent. 100 PageSpeed, Google-ready from day one."
       foot: "PREMIUM"
       url: "https://www.fiverr.com/creativitas/create-your-custom-website-and-app"
