@@ -35,13 +35,6 @@
   "founder": {
     "@type": "Person",
     "name": "{{ metadata.author or site.author }}"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "10500",
-    "bestRating": "5",
-    "worstRating": "1"
   }
 }
 </script>
