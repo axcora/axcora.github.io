@@ -80,7 +80,7 @@ services:
       title: "Jekyll • Astro • 11ty — JAMstack Migration, Hosting $0"
       desc: "Paying monthly for hosting a site that could cost $0 to run? We migrate you to high-performance JAMstack — 90++ PageSpeed, zero hosting bill. WordPress migration included."
       foot: "ASTRO"
-      url: "https://www.fiverr.com/creativitas/design-your-website-with-jekyll-astro"
+      url: "https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll"
     - no: "09"
       cat: "Web Presence"
       imp: "Rank on Google"
