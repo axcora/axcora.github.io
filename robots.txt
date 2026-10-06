@@ -1,3 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
 User-agent: *
 Allow: /
-Sitemap: https://axcora.com/sitemap.xml
+
+Sitemap: https://www.axcora.com/sitemap.xml
